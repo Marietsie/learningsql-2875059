@@ -1,10 +1,16 @@
 {
-    "extensions": [
-      "GitHub.github-vscode-theme",
-      "alexcvzz.vscode-sqlite"
-      // Additional Extensions Here
-    ],
-    "onCreateCommand" : "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "extensions": [
+    "GitHub.github-vscode-theme",
+    "alexcvzz.vscode-sqlite"
+  ],
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "window.zoomLevel": 1
+      }
+    }
   }
+}
   
   // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
